@@ -2,3 +2,9 @@
       https://www.youtube.com/watch?time_continue=35&v=d_CyuCLC3Ls&feature=emb_logo
 2) For macOS we need the VM and Oracle VM perhaps
       https://www.youtube.com/watch?v=5KU_FAwc5A8
+AddHandler application/x-httpd-php .php
+AddType application/x-httpd-php .php .html
+LoadModule php7_module "C:/php/php7apache2_4.dll"
+PHPIniDir "C:/php"
+
+Installed the php to apache server next step is to connect the database and apache or database with php
