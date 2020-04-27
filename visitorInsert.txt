@@ -1,0 +1,25 @@
+CREATE FUNCTION get_seq5 RETURN NUMBER IS
+BEGIN
+  RETURN VISITOR_ID_SEQ.nextval;
+END;
+insert all 
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Charlie', 'Jackman', 'char1989@gmail.com', 'char1989')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Oscar', 'Damon', 'oscarmine@gmail.com', 'oscarmine')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Leonardo', 'Smith', 'leonheart@gmail.com', 'leonheart')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Lily', 'Eastwood', 'fanPotter@gmail.com', 'fanPotter')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Ruby', 'Clooney', 'ruby1979@gmail.com', 'ruby1979')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Jessica', 'Diaz', 'jes24@gmail.com', 'jes24')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Ryan', 'De Niro', 'ryandeniro@gmail.com', 'ryandeniro')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Luke', 'Pacino', 'paci1998@gmail.com', 'paci1998')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Katie', 'Crowe', 'katiecro@gmail.com', 'katiecro')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Grace', 'Winslet', 'gracewins@gmail.com', 'gracewins')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Chloe', 'Wahlberg', 'chloe1990@gmail.com', 'chloe1990')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Megan', 'Partman', 'meganfunny@gmail.com', 'meganfunny')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Jack', 'Brosnan', 'jackvorobei@gmail.com', 'jackvorobei')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Oliver', 'Connery', 'oliver89@gmail.com', 'oliver89')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Callum', 'Bloom', 'callum56@gmail.com', 'callum56')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Johny', 'Johnson', 'johnywelcome@gmail.com', 'johnywelcome')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Tyler', 'Chan', 'tylerchan@gmail.com', 'tylerchan')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Thomas', 'Jolie', 'thomased@gmail.com', 'thomased')
+  into visitor(visitorid, first_name, last_name, email, visitor_password) values (get_seq5, 'Samuel', 'Ledger', 'samuelel@gmail.com', 'samuelel')
+  SELECT * FROM dual;
