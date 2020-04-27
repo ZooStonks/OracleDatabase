@@ -1,0 +1,36 @@
+CREATE FUNCTION get_seq1 RETURN NUMBER IS
+BEGIN
+  RETURN FOOD_ID_SEQ.nextval;
+END;
+INSERT ALL
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'boneless beef')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'apple')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'carrot')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'banana')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'peepal leaves')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'tomato')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'cabbage')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'sweet potatoes')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'onion')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'red chilli')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'sunflower seeds')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'minced meat')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'day-old chick')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'milk')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'boiled egg')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'bread')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'honey')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'jam')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'fish')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'chicken')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'lizards')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'rats')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'papaya ')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'spleen')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'bones')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'liver')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'snakes')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'pineapple juice')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'dried ants')
+   INTO FOOD(FOOD_ID,FOOD_NAME) VALUES (get_seq1,'wheat germ')
+SELECT 1 FROM DUAL;
