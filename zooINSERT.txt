@@ -1,0 +1,9 @@
+CREATE FUNCTION get_seq2 RETURN NUMBER IS
+BEGIN
+  RETURN ZOO_ID_SEQ.nextval;
+END;
+INSERT ALL
+   INTO ZOO(ZOOID, ADDRESS, ZOO_EMAIL, ZOO_NAME) VALUES (get_seq2,'Almaty, 166 Esenberlin','almatyzoo@gmail.com','Almaty Zoo')
+   INTO ZOO(ZOOID, ADDRESS, ZOO_EMAIL, ZOO_NAME) VALUES (get_seq2,'Shymkent','shymkentzoo@gmail.com','Shymkent Zoo')
+   INTO ZOO(ZOOID, ADDRESS, ZOO_EMAIL, ZOO_NAME) VALUES (get_seq2,'Karagandy','karagandyzoo@gmail.com','Karagandy Zoo')
+SELECT 1 FROM DUAL
