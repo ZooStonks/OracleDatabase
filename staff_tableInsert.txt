@@ -3,21 +3,21 @@ BEGIN
   RETURN STAFF_ID_SEQ.nextval;
 END;
 insert all
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Christopher', 'Depp', 'christopherdepp@gmail.com', default, 'christ123')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Oliver', 'Twist', 'olivertwist@gmail.com', default, 'olivertwist')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Harry', 'Carrey', 'harrycarrey@gmail.com', default, 'mepotter01')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'George', 'Watson', 'georgewatson@gmail.com', default, 'monkeyforever12')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Noah', 'Radcliffe', 'noahradcliffe@gmail.com', default, 'algakz90')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Jack', 'DiCaprio', 'jackdicaprio@gmail.com', default, 'vijivshiyOskar1')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Jacob', 'Cruise', 'jacobcruise@gmail.com', default, 'I0am0actor')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Isla', 'Pitt', 'islapitt@gmail.com', default, 'hey123456789')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Isabella', 'Freeman', 'isabellfree@gmail.com', default, 'otmena25regex')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Poppy', 'Hanks', 'poppyhanks@gmail.com', default, 'fly000hanks')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Muhammad', 'Chaplin', 'muhachaplin@gmail.com', default, 'beBoxer1')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Oleg', 'Pushkin', 'olegpushkin@gmail.com', default, 'heyIamRuskiy')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Almas', 'Ford', 'almasford@gmail.com', default, 'MenKAZAKH')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Kairat', 'Nurtas', 'kairatnurtas@gmail.com', 'ADMIN', 'ADMINKA_meniki')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Ella', 'Stallone', 'ellastallone@gmail.com', default, 'ellaQWERTY')
-    into donate (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Berik', 'Spielberg', 'berikspielberg@gmail.com', default, 'Iwanttobe
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Christopher', 'Depp', 'christopherdepp@gmail.com', default, 'christ123')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Oliver', 'Twist', 'olivertwist@gmail.com', default, 'olivertwist')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Harry', 'Carrey', 'harrycarrey@gmail.com', default, 'mepotter01')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'George', 'Watson', 'georgewatson@gmail.com', default, 'monkeyforever12')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Noah', 'Radcliffe', 'noahradcliffe@gmail.com', default, 'algakz90')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Jack', 'DiCaprio', 'jackdicaprio@gmail.com', default, 'vijivshiyOskar1')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Jacob', 'Cruise', 'jacobcruise@gmail.com', default, 'I0am0actor')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Isla', 'Pitt', 'islapitt@gmail.com', default, 'hey123456789')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Isabella', 'Freeman', 'isabellfree@gmail.com', default, 'otmena25regex')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Poppy', 'Hanks', 'poppyhanks@gmail.com', default, 'fly000hanks')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Muhammad', 'Chaplin', 'muhachaplin@gmail.com', default, 'beBoxer1')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Oleg', 'Pushkin', 'olegpushkin@gmail.com', default, 'heyIamRuskiy')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Almas', 'Ford', 'almasford@gmail.com', default, 'MenKAZAKH')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 2, 'Kairat', 'Nurtas', 'kairatnurtas@gmail.com', 'ADMIN', 'ADMINKA_meniki')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 0, 'Ella', 'Stallone', 'ellastallone@gmail.com', default, 'ellaQWERTY')
+    into staff_table (staff_id, zooid, first_name, last_name, staff_email, role, staff_password) values (get_seq4, 1, 'Berik', 'Spielberg', 'berikspielberg@gmail.com', default, 'Iwanttobe
 producer')
     SELECT * FROM dual;
