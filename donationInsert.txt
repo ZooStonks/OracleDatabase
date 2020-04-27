@@ -1,0 +1,19 @@
+CREATE FUNCTION get_seq3 RETURN NUMBER IS
+BEGIN
+  RETURN DONATION_ID_SEQ.nextval;
+END;
+insert all
+    into donate (donateid, amount, cardnumber) values (get_seq3, 200, 4012885674381881)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 300, 4012888888881181)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 50, 4012888901881800)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 67, 4016789188887091)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 100, 4012888884231881)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 100, 4012888888435188)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 400, 4012888887830954)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 1000, 4012183927465012)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 20, 4012888649203756)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 10, 4012749275839465)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 10, 4012930580000547) 
+    into donate (donateid, amount, cardnumber) values (get_seq3, 30, 4012346716472364)
+    into donate (donateid, amount, cardnumber) values (get_seq3, 50, 4012324178996666)
+    SELECT * FROM dual;
