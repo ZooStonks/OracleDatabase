@@ -17,3 +17,15 @@ CREATE USER ALIKHAN_ADMIN
 IDENTIFIED BY adminonly
 
 GRANT ADMINISTRATOR TO ALIKHAN_ADMIN
+
+
+CREATE USER STAFF_MEMBER
+IDENTIFIED BY staffy
+commit;
+
+grant staff to staff_member
+commit;
+
+grant select, insert, update, delete on staff_table to staff_member
+commit;
+
