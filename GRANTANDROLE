@@ -29,3 +29,5 @@ commit;
 grant select, insert, update, delete on staff_table to staff_member
 commit;
 
+grant all on DONATE(all other tables) to ADMINISTRATOR
+
